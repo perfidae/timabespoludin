@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>STANT — усі ігри</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top-bar">
+  <div class="logo-block">
+    <h1 class="stanth">STANT</h1>
+    <p class="stant">
+      <img src="https://learn.logikaschool.com/uploads/student/4796045/69353fe471c04.png" alt="STANT logo">
+    </p>
+  </div>
+
+  <nav class="navigacia">
+    <a href="index.html">про нас</a>
+    <a href="games.html">ігри</a>
+    <a href="index.html#vidguki">відгуки</a>
+    <a href="index.html#akcii">акції</a>
+    <a href="index.html#oplata">оплата</a>
+    <input class="search" type="search" placeholder="Пошук ігор…">
+  </nav>
+</header>
+
+<main class="page">
+  <h1>Усі ігри STANT</h1>
+
+  <!-- Фільтри як у сторінці каталогу Steam -->
+  <section class="filters-bar">
+    <div class="filters">
+      <button class="filter active">Усі ігри</button>
+      <button class="filter">Новинки</button>
+      <button class="filter">Популярні</button>
+      <button class="filter">Акційні</button>
+      <button class="filter">Безкоштовні</button>
+    </div>
+    <div class="sort">
+      <label for="sort">Сортування:</label>
+      <select id="sort">
+        <option>за популярністю</option>
+        <option>за рейтингом</option>
+        <option>за новизною</option>
+        <option>за ціною (зрост.)</option>
+        <option>за ціною (спад.)</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Список ігор у вигляді «лінійок», як пошук у Steam -->
+  <section class="games-list">
+
+    <article class="game-card">
+      <div class="game-media">
+        <img class="kartinka1"
+             src="https://learn.logikaschool.com/uploads/student/4796045/693545165e6d3.jpg"
+             alt="No, I`m Not A Human">
+      </div>
+      <div class="game-info">
+        <p class="igra1">No, I`m Not A Human</p>
+        <p class="game-genre">Інді • пригоди</p>
+        <p class="game-desc">Незвичайна історія, де штучний інтелект намагається зрозуміти, що таке людяність.</p>
+        <div class="game-meta">
+          <span class="rating">★ 9/10</span>
+          <span class="tag">Хіт</span>
+        </div>
+      </div>
+      <div class="game-right">
+        <div class="price-row">
+          <span class="price-current">149₴</span>
+        </div>
+        <button class="btn small">У кошик</button>
+      </div>
+    </article>
+
+    <article class="game-card">
+      <div class="game-media">
+        <img class="kartinka2"
+             src="https://learn.logikaschool.com/uploads/student/4796045/6935474cb7a2b.png"
+             alt="Hotline Miami">
+      </div>
+      <div class="game-info">
+        <p class="igra2">hotline miami (1 та 2 частина)</p>
+        <p class="game-genre">Екшн • ретро</p>
+        <p class="game-desc">Жорстокий неон-екшн з видовищним геймплеєм та крутим саундтреком.</p>
+        <div class="game-meta">
+          <span class="rating">★ 10/10</span>
+          <span class="tag discount">-50%</span>
+        </div>
+      </div>
+      <div class="game-right">
+        <div class="price-row">
+          <span class="price-current">199₴</span>
+          <span class="price-old">399₴</span>
+        </div>
+        <button class="btn small">У кошик</button>
+      </div>
+    </article>
+
+    <article class="game-card">
+      <div class="game-media">
+        <img class="kartinka1"
+             src="https://learn.logikaschool.com/uploads/student/4796045/6935450a3f5f2.jpg"
+             alt="S.T.A.L.K.E.R">
+      </div>
+      <div class="game-info">
+        <p class="igra1">S.T.A.L.K.E.R (1 and 2)</p>
+        <p class="game-genre">Шутер • виживання</p>
+        <p class="game-desc">Легендарна серія про Зону відчуження для справжніх фанатів постапокаліпсису.</p>
+        <div class="game-meta">
+          <span class="rating">★ 9/10</span>
+          <span class="tag">Класика</span>
+        </div>
+      </div>
+      <div class="game-right">
+        <div class="price-row">
+          <span class="price-current">299₴</span>
+        </div>
+        <button class="btn small">У кошик</button>
+      </div>
+    </article>
+
+    <!-- Можеш додавати ще такі самі картки з іншими іграми -->
+
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2025 STANT. Неофіційний фан-проєкт у стилі Steam.</p>
+</footer>
+</body>
+</html>
