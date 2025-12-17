@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>STANT — магазин ігор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top-bar">
+  <div class="logo-block">
+    <h1 class="stanth">STANT</h1>
+    <p class="stant">
+      <img src="https://learn.logikaschool.com/uploads/student/4796045/69353fe471c04.png" alt="STANT logo">
+    </p>
+  </div>
+
+  <nav class="navigacia">
+    <a href="#pro_nas">про нас</a>
+    <a href="#game">ігри</a>
+    <a href="#vidguki">відгуки</a>
+    <a href="#akcii">акції</a>
+    <a href="#oplata">оплата</a>
+    <input class="search" type="search" placeholder="Пошук ігор…">
+  </nav>
+</header>
+
+<main class="page">
+  <!-- Hero / банер як у Steam -->
+  <section class="hero">
+    <div class="hero-info">
+      <h2>Вітання в STANT</h2>
+      <p>Твій магазин з вигідними цінами на ігри, схожий на Steam, але з власними акціями та безкоштовними пропозиціями.</p>
+      <button class="btn primary">Переглянути ігри</button>
+      <button class="btn secondary">Безкоштовні ігри</button>
+    </div>
+    <div class="hero-side">
+      <h3>Акція дня</h3>
+      <div class="hero-card">
+        <span class="tag">-70%</span>
+        <p>No, I`m Not A Human</p>
+        <span class="price">
+          <span class="old-price">399₴</span>
+          <span class="new-price">119₴</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="pro_nas">
+    <h1 class="pro-nas">Про нас</h1>
+    <div class="about-grid">
+      <p class="pn">
+        В нас ви знайдете найвигідніші ціни для ігр.
+        Ми-це Стім, але в нас дешевше та є безкоштовні ігри.
+        Якщо в вас нема грошей або просто не хочете платити, то скористуйтеся послугами торента.
+      </p>
+      <div class="about-extra">
+        <p class="label">Наші переваги:</p>
+        <ul class="features">
+          <li>Постійні знижки на популярні тайтли.</li>
+          <li>Підбірка безкоштовних ігор та демо.</li>
+          <li>Зручний інтерфейс у стилі Steam.</li>
+        </ul>
+        <p class="torent">
+          <img class="torent"
+               src="https://play-lh.googleusercontent.com/qb7DtNhXGREfw8VGPCMkmO3Y2EzZMy8j6VfuMtwkKbBcVAdGxcA12u5-4j2sEDUSfFY"
+               alt="Torrent">
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="game">
+    <h1 class="game">Ігри</h1>
+
+    <!-- Фільтри як у Steam -->
+    <div class="filters">
+      <button class="filter active">Усі</button>
+      <button class="filter">Екшн</button>
+      <button class="filter">Інді</button>
+      <button class="filter">Шутер</button>
+      <button class="filter">Розпродаж</button>
+    </div>
+
+    <div class="games">
+
+      <article class="game-card game1">
+        <div class="game-media">
+          <img class="kartinka1"
+               src="https://learn.logikaschool.com/uploads/student/4796045/693545165e6d3.jpg"
+               alt="No, I`m Not A Human">
+        </div>
+        <div class="game-info">
+          <p class="igra1">No, I`m Not A Human</p>
+          <p class="game-genre">Інді • пригоди</p>
+          <p class="game-desc">Незвичайна історія, де штучний інтелект намагається зрозуміти, що таке людяність.</p>
+          <div class="game-meta">
+            <span class="rating">★ 9/10</span>
+            <span class="tag">Хіт</span>
+          </div>
+          <div class="price-row">
+            <span class="price-current">149₴</span>
+            <button class="btn small">У кошик</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="game-card game2">
+        <div class="game-media">
+          <img class="kartinka2"
+               src="https://learn.logikaschool.com/uploads/student/4796045/6935474cb7a2b.png"
+               alt="Hotline Miami">
+        </div>
+        <div class="game-info">
+          <p class="igra2">hotline miami (1 та 2 частина)</p>
+          <p class="game-genre">Екшн • ретро</p>
+          <p class="game-desc">Жорстокий неон-екшн з видовищним геймплеєм та крутим саундтреком.</p>
+          <div class="game-meta">
+            <span class="rating">★ 10/10</span>
+            <span class="tag discount">-50%</span>
+          </div>
+          <div class="price-row">
+            <span class="price-current">199₴</span>
+            <span class="price-old">399₴</span>
+            <button class="btn small">У кошик</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="game-card game3">
+        <div class="game-media">
+          <img class="kartinka1"
+               src="https://learn.logikaschool.com/uploads/student/4796045/6935450a3f5f2.jpg"
+               alt="S.T.A.L.K.E.R">
+        </div>
+        <div class="game-info">
+          <p class="igra1">S.T.A.L.K.E.R (1 and 2)</p>
+          <p class="game-genre">Шутер • виживання</p>
+          <p class="game-desc">Легендарна серія про Зону відчуження для справжніх фанатів постапокаліпсису.</p>
+          <div class="game-meta">
+            <span class="rating">★ 9/10</span>
+            <span class="tag">Класика</span>
+          </div>
+          <div class="price-row">
+            <span class="price-current">299₴</span>
+            <button class="btn small">У кошик</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="vidguki">
+    <h1 class="vidguki">Відгуки</h1>
+    <div class="reviews">
+      <article class="review">
+        <img class="kv1"
+             src="https://learn.logikaschool.com/uploads/student/4796045/693d499396fcc.jpg"
+             alt="Аватар SashaGemes">
+        <div class="review-body">
+          <p class="user">SashaGemes</p>
+          <p class="text">
+            дякую за вигідні ціни, так ще й без торенту! сайт справді крутий!!!
+          </p>
+          <span class="review-rating positive">★ Переважно позитивні</span>
+        </div>
+      </article>
+
+      <article class="review">
+        <img class="kv2"
+             src="https://learn.logikaschool.com/uploads/student/4796045/693d4aff3d287.jpg"
+             alt="Аватар aoberemok6">
+        <div class="review-body">
+          <p class="user">aoberemok6</p>
+          <p class="text">
+            чого вас ігнорують? ЦЕ НАЙКРАЩИЙ САЙТ ЯКИЙ Я БАЧИВ!!!Заведіть TikTok або я постараюсь зобити вас популярними на весь світ😉
+          </p>
+          <span class="review-rating positive">★ Дуже позитивні</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="akcii">
+    <h1 class="akcii">Акції</h1>
+    <div class="sales">
+      <div class="sale-card">
+        <h3>Осінній розпродаж</h3>
+        <p>Знижки до 80% на інді та класичні ігри.</p>
+        <button class="btn small">Переглянути знижки</button>
+      </div>
+      <div class="sale-card">
+        <h3>Безкоштовні вихідні</h3>
+        <p>Щовихідних — добірка ігор, у які можна грати безкоштовно обмежений час.</p>
+      </div>
+      <div class="sale-card">
+        <h3>Бандли STANT</h3>
+        <p>Купуй серії ігор одним набором і заощаджуй ще більше.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="oplata">
+    <h1 class="oplata">Оплата</h1>
+    <div class="payment">
+      <div class="payment-methods">
+        <h3>Способи оплати</h3>
+        <ul>
+          <li>Банківська картка (Visa / MasterCard).</li>
+          <li>Google Pay / Apple Pay.</li>
+          <li>Подарункові ключі STANT.</li>
+        </ul>
+      </div>
+      <div class="payment-info">
+        <h3>Як це працює</h3>
+        <ol>
+          <li>Обери гру та натисни «У кошик».</li>
+          <li>Підтверди замовлення та спосіб оплати.</li>
+          <li>Отримай ключ та активуй його у своєму лаунчері.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2025 STANT. Неофіційний фан-проєкт у стилі Steam.</p>
+</footer>
+</body>
+</html>
